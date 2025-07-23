@@ -1,4 +1,4 @@
-import { theme } from "@/constants/variables"
+import { theme } from "../constants/variables"
 
 const configProviderTheme = {
   token: {
