@@ -15,5 +15,5 @@ export default async function Layout(props) {
         notFound();
     }
 
-    return <>{children}</>;
+    return <div>{children}</div>;
 }
