@@ -9,7 +9,7 @@ const BookingPage = (props) => {
     // const { bookingId } = use(props.params); // 👈 Unwrap the promise
 
     return (
-        <div>
+        <div className='booking_main_container'>
             <Booking />
         </div>
     );
