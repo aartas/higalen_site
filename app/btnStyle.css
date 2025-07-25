@@ -1,0 +1,108 @@
+.btn {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all linear 0.3s;
+    cursor: pointer;
+    column-gap: 13px;
+    text-decoration: none;
+}
+
+.btn__regular {
+    width: max-content;
+    height: 42px;
+    padding: 8.5px 16px 12.5px;
+    border-radius: 7.5px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.btn__small {
+    width: max-content;
+    min-height: 32px;
+    font-size: var(--p3-font-size);
+    line-height: var(--p3-line-height);
+    padding: 6px 13.5px 9px;
+    border-radius: 4.5px;
+}
+
+.btn__long {
+    height: 42px;
+    width: 100%;
+    padding: 8.5px 16px 12.5px;
+    border-radius: 7.5px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.btn__big {
+    height: 60px;
+    width: max-content;
+    padding: 12px 24px;
+    border-radius: 7.5px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.btn__no-style {
+    box-shadow: none;
+    border: none;
+    z-index: 1;
+    background: transparent;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.btn span {
+    display: block;
+    margin: 0px;
+}
+
+.btn__regular-skeleton {
+    min-width: 150px;
+}
+
+/************* primary btn style ***********/
+
+.btn__solid-primary{
+    background: var(--primary-color) !important;
+    color: var(--white-color) !important;
+    border: 1px solid var(--primary-color) !important;
+}
+
+.btn__solid-primary:hover{
+    background: var(--primary-color__hover) !important;
+    color: var(--white-color) !important;
+}
+
+.btn__solid-primary__disabled, .btn__solid-primary:disabled, .btn__solid-primary[disabled]{
+    background: var(--primary-color__disable) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    border: 1px solid var(--primary-color__disable) !important;
+}
+
+.btn__no-outline-primary{
+    background: var(--white-color) !important;
+    color: var(--primary-color) !important;
+    border: 1px solid var(--white-color) !important;
+    box-shadow: none !important;
+}
+
+.btn__no-outline-primary:hover{
+    background: var(--primary-color) !important;
+    color: var(--white-color) !important;
+    border: 1px solid var(--primary-color) !important;
+}
+
+.btn__no-outline-primary:hover svg {
+    filter: invert(1);
+}
+
+.btn__no-outline-primary__disable, .btn__no-outline-primary:disabled, .btn__no-outline-primary[disabled]{
+    color: var(--primary-color) !important;
+    border: 1px solid var(--white-color) !important;
+    opacity: 0.2;
+}

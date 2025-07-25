@@ -1,0 +1,50 @@
+:root {
+    /* font family */
+    --primary-font: 'Helvetica neue';
+
+
+    /* font size css */
+    --h1-font-size: 1rem;
+    --h2-font-size: 2rem;
+    --h3-font-size: 1.75rem;
+    --h4-font-size: 1.5rem;
+    --h5-font-size: 1.25rem;
+    --h6-font-size: 1rem;
+  
+    --p1-font-size: 1.125rem;
+    --p2-font-size: 1rem;
+    --p3-font-size: 0.875rem;
+    --p4-font-size: 0.65rem;
+  
+    --h1-line-height: 1.2;
+    --h2-line-height: 1.3;
+    --h3-line-height: 1.4;
+    --h4-line-height: 1.5;
+    --h5-line-height: 1.6;
+    --h6-line-height: 1.7;
+  
+    --p1-line-height: 1.5;
+    --p2-line-height: 1.5;
+    --p3-line-height: 1.5;
+    --p4-line-height: 1.5;
+
+    /* color code */
+    --primary-color: #222023;
+    --primary-color__border: #222023;
+    --primary-color__hover: #3A383B;
+    --primary-color__disable: #0000000a;
+
+    --secondary-color: #1677FF;
+
+    --primary-bg-color: #f7f7f5;
+
+    --black-color: #000;
+    --white-color: #fff;
+    --pink-color: #ff4a88;
+    --red-color: #FF0000;
+
+    --success-green-color: #52c41a;
+    --warning-yellow-color: #ffb30b;
+
+    --default-border-color: #f1f1ef;
+}
