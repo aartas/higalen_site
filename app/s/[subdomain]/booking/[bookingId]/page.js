@@ -1,5 +1,7 @@
-const BookingPage = ({ params }) => {
+const BookingPage = async (props) => {
+    const params = await props.params;
     const { bookingId } = params;
+
 
     return (
         <div>

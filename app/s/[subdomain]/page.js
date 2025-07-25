@@ -1,14 +1,6 @@
-import { notFound } from 'next/navigation';
-
-const allowedSubdomains = ['rakesh', 'nikhil'];
-
-export default async function Page({ params }) {
+export default async function Page(props) {
+  const params = await props.params; // ✅ await the params here
   const { subdomain, slug = [] } = params;
-
-  // ❌ Redirect to 404 if subdomain is not in allowed list
-  if (!allowedSubdomains.includes(subdomain)) {
-    notFound();
-  }
 
   return (
     <div>
