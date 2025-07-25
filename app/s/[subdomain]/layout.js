@@ -11,9 +11,9 @@ export default async function Layout(props) {
     const children = await props.children;
     const { subdomain } = params;
 
-    if (!allowedSubdomains.includes(subdomain)) {
-        notFound();
-    }
+    // if (!allowedSubdomains.includes(subdomain)) {
+    //     notFound();
+    // }
 
     return <div>{children}</div>;
 }
