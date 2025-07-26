@@ -35,7 +35,37 @@
     border-bottom-right-radius: 20px;
 }
 
-/* Tablet View */
+
+.consult-type-group .ant-radio-button-wrapper {
+    border-radius: 8px !important;
+    padding: 8px 24px;
+    font-size: 16px;
+    border: 1px solid #d9d9d9;
+    color: #333;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.consult-type-group .ant-radio-button-wrapper-checked {
+    border-color: #1677ff !important;
+    color: #1677ff !important;
+    background-color: #e6f4ff;
+}
+
+.consult-type-group .ant-radio-button-wrapper:not(:first-child) {
+    margin-left: 12px;
+}
+
+.booking_consult_type_radio_group .ant-radio-wrapper {
+    border: 1px solid #D2D2D3 !important;
+    padding: 10px !important;
+    border-radius: 8px !important;
+}
+
+/* .booking_consult_type_radio_group .ant-radio-wrapper-checked{
+    border: 1px solid #007BA7 !important;
+} */
+
 @media only screen and (max-width: 992px) {
     .booking_section_main_wrapper {
         width: 100%;
